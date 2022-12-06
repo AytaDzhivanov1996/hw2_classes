@@ -4,7 +4,7 @@ class Person:
             self.__fio = fio
             self.__age = age
             self.__passport = passport
-            self.weight = weight
+            self.__weight = weight
 
     @property
     def fio(self):
